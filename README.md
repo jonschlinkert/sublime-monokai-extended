@@ -4,6 +4,18 @@
 
 Companion to [sublime-markdown-extended](https://github.com/jonschlinkert/sublime-markdown-extended).
 
+
+## Examples
+
+### LESS Before
+
+![image](https://f.cloud.github.com/assets/383994/780868/7adf8f1a-ea0f-11e2-84c5-38792a146b31.png)
+
+### LESS After
+
+![image](https://f.cloud.github.com/assets/383994/780859/5ef41b40-ea0f-11e2-87d5-1f2f6928017e.png)
+
+
 ## Installation
 
 The easiest way to install this plugin is to go to `Preferences -> Browse Packages`, and then:
@@ -32,7 +44,7 @@ Adds and/or improves styling for:
 * `HTML: Styles`
 * `HTML: {}`
 * `HTML: Tags punctuation`
-* `Handlebars: Variable` (To highlight Handlebars, install the [Handlebars](https://github.com/daaain/Handlebars) language package for Sublime Text) 
+* `Handlebars: Variable` (To highlight Handlebars, install the [Handlebars](https://github.com/daaain/Handlebars) language package for Sublime Text)
 * `Handlebars: Constant`
 * `CSS: Selector`
 * `CSS: Tag Name`
