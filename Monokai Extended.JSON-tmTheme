@@ -45,38 +45,10 @@
             }
         }, 
         {
-            "name": "String constant", 
-            "scope": "string constant", 
+            "name": "Number", 
+            "scope": "constant.numeric", 
             "settings": {
-                "foreground": "#66d9ef"
-            }
-        }, 
-        {
-            "name": "String.regexp", 
-            "scope": "string.regexp", 
-            "settings": {
-                "foreground": "#f6aa11"
-            }
-        }, 
-        {
-            "name": "String variable", 
-            "scope": "string variable", 
-            "settings": {
-                "foreground": "#ffffff"
-            }
-        }, 
-        {
-            "name": "Variable", 
-            "scope": "variable.language, variable.other", 
-            "settings": {
-                "foreground": "#ffffff"
-            }
-        }, 
-        {
-            "name": "Variable: punctuation", 
-            "scope": "punctuation.definition.variable", 
-            "settings": {
-                "foreground": "#ffffff"
+                "foreground": "#be84ff"
             }
         }, 
         {
@@ -94,18 +66,10 @@
             }
         }, 
         {
-            "name": "Number", 
-            "scope": "constant.numeric", 
+            "name": "Variable", 
+            "scope": "variable.language, variable.other", 
             "settings": {
-                "foreground": "#be84ff"
-            }
-        }, 
-        {
-            "name": "Entity", 
-            "scope": "entity", 
-            "settings": {
-                "fontStyle": "", 
-                "foreground": "#a6e22e"
+                "foreground": "#ffffff"
             }
         }, 
         {
@@ -211,6 +175,42 @@
             }
         }, 
         {
+            "name": "String constant", 
+            "scope": "string constant", 
+            "settings": {
+                "foreground": "#66d9ef"
+            }
+        }, 
+        {
+            "name": "String.regexp", 
+            "scope": "string.regexp", 
+            "settings": {
+                "foreground": "#f6aa11"
+            }
+        }, 
+        {
+            "name": "String variable", 
+            "scope": "string variable", 
+            "settings": {
+                "foreground": "#ffffff"
+            }
+        }, 
+        {
+            "name": "Variable: punctuation", 
+            "scope": "punctuation.definition.variable", 
+            "settings": {
+                "foreground": "#ffffff"
+            }
+        }, 
+        {
+            "name": "Entity", 
+            "scope": "entity", 
+            "settings": {
+                "fontStyle": "", 
+                "foreground": "#a6e22e"
+            }
+        }, 
+        {
             "name": "HTML: Doctype/XML Processing", 
             "scope": "meta.tag.sgml.doctype.xml, declaration.sgml.html declaration.doctype, declaration.sgml.html declaration.doctype entity, declaration.sgml.html declaration.doctype string,  declaration.xml-processing, declaration.xml-processing entity, declaration.xml-processing string, doctype", 
             "settings": {
@@ -233,14 +233,6 @@
             }
         }, 
         {
-            "name": "HTML: Style", 
-            "scope": "source.css.embedded.html string.quoted.double.html", 
-            "settings": {
-                "fontStyle": "", 
-                "foreground": "#f6f080"
-            }
-        }, 
-        {
             "name": "HTML: Attribute punctuation", 
             "scope": "text.html.basic meta.tag.other.html, text.html.basic meta.tag.any.html, text.html.basic meta.tag.block.any, text.html.basic meta.tag.inline.any, text.html.basic meta.tag.structure.any.html,  text.html.basic source.js.embedded.html, punctuation.separator.key-value.html", 
             "settings": {
@@ -260,36 +252,7 @@
             "scope": "text.html.basic meta.tag.structure.any.html punctuation.definition.string.begin.html, punctuation.definition.string.begin.html, punctuation.definition.string.end.html ", 
             "settings": {
                 "fontStyle": "", 
-                "foreground": "#f6f080"
-            }
-        }, 
-        {
-            "name": "HTML: Tag", 
-            "scope": "entity.name.tag.block.any.html", 
-            "settings": {
-                "fontStyle": "", 
-                "foreground": "#f92672"
-            }
-        }, 
-        {
-            "name": "HTML: style", 
-            "scope": "source.css.embedded.html entity.name.tag.style.html", 
-            "settings": {
-                "fontStyle": "italic"
-            }
-        }, 
-        {
-            "name": "HTML: Styles", 
-            "scope": "entity.name.tag.style.html", 
-            "settings": {
-                "fontStyle": ""
-            }
-        }, 
-        {
-            "name": "HTML: {}", 
-            "scope": "text.html.basic punctuation.section.property-list.css", 
-            "settings": {
-                "fontStyle": ""
+                "foreground": "#ffffff"
             }
         }, 
         {
@@ -311,28 +274,6 @@
             "scope": "support.constant.handlebars, meta.function.block.start.handlebars", 
             "settings": {
                 "foreground": "#66d9ef"
-            }
-        }, 
-        {
-            "name": "CSS: Selector", 
-            "scope": "meta.selector.css", 
-            "settings": {
-                "fontStyle": "", 
-                "foreground": "#f92672"
-            }
-        }, 
-        {
-            "name": "CSS: Tag Name", 
-            "scope": "entity.name.tag.css", 
-            "settings": {
-                "foreground": "#f92672"
-            }
-        }, 
-        {
-            "name": "CSS: @import", 
-            "scope": "keyword.control.at-rule.import.css", 
-            "settings": {
-                "foreground": "#f92672"
             }
         }, 
         {
@@ -364,46 +305,10 @@
             }
         }, 
         {
-            "name": "CSS: Property Value", 
-            "scope": "meta.property-group support.constant.property-value.css, meta.property-value support.constant.property-value.css, meta.property-value.css", 
-            "settings": {
-                "foreground": "#f6f080"
-            }
-        }, 
-        {
-            "name": "CSS: Standard Value", 
-            "scope": "support.constant.color", 
-            "settings": {
-                "foreground": "#f6f080"
-            }
-        }, 
-        {
-            "name": "CSS: Additional Constants", 
-            "scope": "meta.property-value support.constant.named-color.css, meta.property-value constant", 
-            "settings": {
-                "foreground": "#edf080"
-            }
-        }, 
-        {
-            "name": "CSS: Numeric Value", 
-            "scope": "meta.property-value.css constant.numeric.css, keyword.other.unit.css,constant.other.color.rgb-value.css", 
-            "settings": {
-                "fontStyle": "", 
-                "foreground": "#ae81ff"
-            }
-        }, 
-        {
             "name": "CSS: Constructor Argument", 
             "scope": "meta.constructor.argument.css", 
             "settings": {
                 "foreground": "#f6aa11"
-            }
-        }, 
-        {
-            "name": "CSS: !Important", 
-            "scope": "keyword.other.important.css", 
-            "settings": {
-                "foreground": "#f92672"
             }
         }, 
         {
@@ -448,7 +353,7 @@
             "scope": "entity.other.less.mixin", 
             "settings": {
                 "fontStyle": " italic", 
-                "foreground": "#ffffff"
+                "foreground": "#e0fdce"
             }
         }, 
         {
@@ -716,13 +621,6 @@
             "settings": {
                 "fontStyle": "", 
                 "foreground": "#d3201f"
-            }
-        }, 
-        {
-            "name": "Other: Add", 
-            "scope": "other.add", 
-            "settings": {
-                "foreground": "#f6f080"
             }
         }, 
         {
