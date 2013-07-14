@@ -9,6 +9,8 @@ Companion to [sublime-markdown-extended](https://github.com/jonschlinkert/sublim
 
 ### LESS Before
 
+(The updated styling for #Ids also applies to CSS)
+
 ![image](https://f.cloud.github.com/assets/383994/780868/7adf8f1a-ea0f-11e2-84c5-38792a146b31.png)
 
 ### LESS After
@@ -95,7 +97,7 @@ Adds and/or improves styling for:
 * `markdown: table`
 
 
-## Example
+## Markdown Example
 
 ![image](https://f.cloud.github.com/assets/383994/726833/0fde0d16-e138-11e2-8e3d-8dbfc91224e7.png)
 
