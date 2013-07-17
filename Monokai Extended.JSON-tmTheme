@@ -432,6 +432,129 @@
             }
         }, 
         {
+            "name": "PHP: []", 
+            "scope": "keyword.operator.index-start.php, keyword.operator.index-end.php", 
+            "settings": {
+                "foreground": "#ffffff"
+            }
+        }, 
+        {
+            "name": "PHP: Array", 
+            "scope": "meta.array.php", 
+            "settings": {
+                "foreground": "#ffffff"
+            }
+        }, 
+        {
+            "name": "PHP: Array()", 
+            "scope": "meta.array.php support.function.construct.php, meta.array.empty.php support.function.construct.php", 
+            "settings": {
+                "fontStyle": "", 
+                "foreground": "#e42e70"
+            }
+        }, 
+        {
+            "name": "PHP: Array Construct", 
+            "scope": "support.function.construct.php", 
+            "settings": {
+                "foreground": "#e42e70"
+            }
+        }, 
+        {
+            "name": "PHP: Storage Type Function", 
+            "scope": "storage.type.function.php", 
+            "settings": {
+                "foreground": "#f92672dd"
+            }
+        }, 
+        {
+            "name": "PHP: Numeric Constant", 
+            "scope": "constant.numeric.php", 
+            "settings": {
+                "foreground": "#be84ff"
+            }
+        }, 
+        {
+            "name": "PHP: New", 
+            "scope": "keyword.other.new.php", 
+            "settings": {
+                "foreground": "#f6aa11"
+            }
+        }, 
+        {
+            "name": "PHP: ::", 
+            "scope": "support.class.php", 
+            "settings": {
+                "fontStyle": "", 
+                "foreground": "#ffffff"
+            }
+        }, 
+        {
+            "name": "PHP: Other Property", 
+            "scope": "variable.other.property.php", 
+            "settings": {
+                "foreground": "#f6aa11"
+            }
+        }, 
+        {
+            "name": "PHP: Class", 
+            "scope": "storage.modifier.extends.php, storage.type.class.php, keyword.operator.class.php", 
+            "settings": {
+                "foreground": "#a6e22e"
+            }
+        }, 
+        {
+            "name": "PHP: Inherited Class", 
+            "scope": "meta.other.inherited-class.php", 
+            "settings": {
+                "fontStyle": "", 
+                "foreground": "#a6e22e"
+            }
+        }, 
+        {
+            "name": "PHP: Storage Type", 
+            "scope": "storage.type.php", 
+            "settings": {
+                "foreground": "#66d9ef"
+            }
+        }, 
+        {
+            "name": "PHP: Function", 
+            "scope": "entity.name.function.php", 
+            "settings": {
+                "foreground": "#66d9ef"
+            }
+        }, 
+        {
+            "name": "PHP: Function Construct", 
+            "scope": "support.function.construct.php", 
+            "settings": {
+                "foreground": "#a6e22e"
+            }
+        }, 
+        {
+            "name": "PHP: Function Call", 
+            "scope": "entity.name.type.class.php, meta.function-call.php, meta.function-call.static.php, meta.function-call.object.php", 
+            "settings": {
+                "foreground": "#ffffff"
+            }
+        }, 
+        {
+            "name": "PHP: Comment", 
+            "scope": "keyword.other.phpdoc", 
+            "settings": {
+                "fontStyle": "", 
+                "foreground": "#7c7865"
+            }
+        }, 
+        {
+            "name": "PHP: Source Emebedded", 
+            "scope": "source.php.embedded.block.html", 
+            "settings": {
+                "foreground": "#ffffff"
+            }
+        }, 
+        {
             "name": "Invalid", 
             "scope": "invalid", 
             "settings": {
@@ -484,6 +607,140 @@
             }
         }, 
         {
+            "name": "Python: storage", 
+            "scope": "storage.type.class.python, storage.type.function.python, storage.modifier.global.python", 
+            "settings": {
+                "fontStyle": "", 
+                "foreground": "#a6e22e"
+            }
+        }, 
+        {
+            "name": "Python: import", 
+            "scope": "keyword.control.import.python, keyword.control.import.from.python", 
+            "settings": {
+                "foreground": "#f92672dd"
+            }
+        }, 
+        {
+            "name": "Python: Support.exception", 
+            "scope": "support.type.exception.python", 
+            "settings": {
+                "foreground": "#66d9ef"
+            }
+        }, 
+        {
+            "name": "Ruby: Constant", 
+            "scope": "constant.language.ruby, constant.numeric.ruby", 
+            "settings": {
+                "foreground": "#ae81ff"
+            }
+        }, 
+        {
+            "name": "Ruby: Variable definition", 
+            "scope": "punctuation.definition.variable.ruby", 
+            "settings": {
+                "fontStyle": "", 
+                "foreground": "#f6aa11"
+            }
+        }, 
+        {
+            "name": "Ruby: Function Name", 
+            "scope": "meta.function.method.with-arguments.ruby", 
+            "settings": {
+                "foreground": "#a6e22e"
+            }
+        }, 
+        {
+            "name": "Ruby: Variable", 
+            "scope": "variable.language.ruby", 
+            "settings": {
+                "foreground": "#ffffff"
+            }
+        }, 
+        {
+            "name": "Ruby: Function", 
+            "scope": "entity.name.function.ruby", 
+            "settings": {
+                "foreground": "#f6aa11"
+            }
+        }, 
+        {
+            "name": "Ruby: Keyword Control", 
+            "scope": "keyword.control.ruby, keyword.control.def.ruby", 
+            "settings": {
+                "fontStyle": "bold", 
+                "foreground": "#a6e22e"
+            }
+        }, 
+        {
+            "name": "Ruby: Class", 
+            "scope": "keyword.control.class.ruby, meta.class.ruby", 
+            "settings": {
+                "foreground": "#a6e22e"
+            }
+        }, 
+        {
+            "name": "Ruby: Class Name", 
+            "scope": "entity.name.type.class.ruby", 
+            "settings": {
+                "fontStyle": "", 
+                "foreground": "#66d9ef"
+            }
+        }, 
+        {
+            "name": "Ruby: Keyword", 
+            "scope": "keyword.control.ruby", 
+            "settings": {
+                "fontStyle": "", 
+                "foreground": "#a6e22e"
+            }
+        }, 
+        {
+            "name": "Ruby: Support Class", 
+            "scope": "support.class.ruby", 
+            "settings": {
+                "fontStyle": "", 
+                "foreground": "#66d9ef"
+            }
+        }, 
+        {
+            "name": "Ruby: Special Method", 
+            "scope": "keyword.other.special-method.ruby", 
+            "settings": {
+                "foreground": "#a6e22e"
+            }
+        }, 
+        {
+            "name": "Ruby: Constant Other", 
+            "scope": "variable.other.constant.ruby", 
+            "settings": {
+                "fontStyle": "", 
+                "foreground": "#66d9ef"
+            }
+        }, 
+        {
+            "name": "Ruby: :symbol", 
+            "scope": "constant.other.symbol.ruby", 
+            "settings": {
+                "fontStyle": "", 
+                "foreground": "#f6f080"
+            }
+        }, 
+        {
+            "name": "Ruby: Punctuation Section", 
+            "scope": "punctuation.section.embedded.ruby, punctuation.definition.string.begin.ruby, punctuation.definition.string.end.ruby", 
+            "settings": {
+                "foreground": "#f92672"
+            }
+        }, 
+        {
+            "name": "Ruby: Special Method", 
+            "scope": "keyword.other.special-method.ruby", 
+            "settings": {
+                "foreground": "#e42e70"
+            }
+        }, 
+        {
             "name": "Markdown: plain", 
             "scope": "text.html.markdown", 
             "settings": {
@@ -517,7 +774,7 @@
             "scope": "markup.italic", 
             "settings": {
                 "fontStyle": "italic", 
-                "foreground": "#f92672dd"
+                "foreground": "#e42e70"
             }
         }, 
         {
@@ -681,26 +938,27 @@
             "name": "Shell: Comment", 
             "scope": "comment.line.number-sign.shell", 
             "settings": {
-                "fontStyle": "italic"
+                "fontStyle": "italic", 
+                "foreground": "#7c7865"
             }
-        },
+        }, 
         {
-            "name": "GitGutter deleted",
-            "scope": "markup.deleted.git_gutter",
+            "name": "GitGutter deleted", 
+            "scope": "markup.deleted.git_gutter", 
             "settings": {
                 "foreground": "#F92672"
             }
-        },
+        }, 
         {
-            "name": "GitGutter inserted",
-            "scope": "markup.inserted.git_gutter",
+            "name": "GitGutter inserted", 
+            "scope": "markup.inserted.git_gutter", 
             "settings": {
                 "foreground": "#A6E22E"
             }
-        },
+        }, 
         {
-            "name": "GitGutter changed",
-            "scope": "markup.changed.git_gutter",
+            "name": "GitGutter changed", 
+            "scope": "markup.changed.git_gutter", 
             "settings": {
                 "foreground": "#967EFB"
             }

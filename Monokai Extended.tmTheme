@@ -700,201 +700,201 @@
 				<string>#cfcfc2</string>
 			</dict>
 		</dict>
-    <dict>
-      <key>name</key>
-      <string>PHP: []</string>
-      <key>scope</key>
-      <string>keyword.operator.index-start.php, keyword.operator.index-end.php</string>
-      <key>settings</key>
-      <dict>
-        <key>foreground</key>
-        <string>#d31e1e</string>
-      </dict>
-    </dict>
-    <dict>
-      <key>name</key>
-      <string>PHP: Array</string>
-      <key>scope</key>
-      <string>meta.array.php</string>
-      <key>settings</key>
-      <dict>
-        <key>foreground</key>
-        <string>#536871</string>
-      </dict>
-    </dict>
-    <dict>
-      <key>name</key>
-      <string>PHP: Array()</string>
-      <key>scope</key>
-      <string>meta.array.php support.function.construct.php, meta.array.empty.php support.function.construct.php</string>
-      <key>settings</key>
-      <dict>
-        <key>fontStyle</key>
-        <string></string>
-        <key>foreground</key>
-        <string>#a57800</string>
-      </dict>
-    </dict>
-    <dict>
-      <key>name</key>
-      <string>PHP: Array Construct</string>
-      <key>scope</key>
-      <string>support.function.construct.php</string>
-      <key>settings</key>
-      <dict>
-        <key>foreground</key>
-        <string>#a57800</string>
-      </dict>
-    </dict>
-    <dict>
-      <key>name</key>
-      <string>PHP: Numeric Constant</string>
-      <key>scope</key>
-      <string>constant.numeric.php</string>
-      <key>settings</key>
-      <dict>
-        <key>foreground</key>
-        <string>#269186</string>
-      </dict>
-    </dict>
-    <dict>
-      <key>name</key>
-      <string>PHP: New</string>
-      <key>scope</key>
-      <string>keyword.other.new.php</string>
-      <key>settings</key>
-      <dict>
-        <key>foreground</key>
-        <string>#cb4b16</string>
-      </dict>
-    </dict>
-    <dict>
-      <key>name</key>
-      <string>PHP: ::</string>
-      <key>scope</key>
-      <string>support.class.php</string>
-      <key>settings</key>
-      <dict>
-        <key>fontStyle</key>
-        <string></string>
-        <key>foreground</key>
-        <string>#536871</string>
-      </dict>
-    </dict>
-    <dict>
-      <key>name</key>
-      <string>PHP: Other Property</string>
-      <key>scope</key>
-      <string>variable.other.property.php</string>
-      <key>settings</key>
-      <dict>
-        <key>foreground</key>
-        <string>#899090</string>
-      </dict>
-    </dict>
-    <dict>
-      <key>name</key>
-      <string>PHP: Class</string>
-      <key>scope</key>
-      <string>storage.modifier.extends.php, storage.type.class.php, keyword.operator.class.php</string>
-      <key>settings</key>
-      <dict>
-        <key>foreground</key>
-        <string>#a57800</string>
-      </dict>
-    </dict>
-    <dict>
-      <key>name</key>
-      <string>PHP: Inherited Class</string>
-      <key>scope</key>
-      <string>meta.other.inherited-class.php</string>
-      <key>settings</key>
-      <dict>
-        <key>fontStyle</key>
-        <string></string>
-        <key>foreground</key>
-        <string>#536871</string>
-      </dict>
-    </dict>
-    <dict>
-      <key>name</key>
-      <string>PHP: Storage Type</string>
-      <key>scope</key>
-      <string>storage.type.php</string>
-      <key>settings</key>
-      <dict>
-        <key>foreground</key>
-        <string>#a6e22e</string>
-      </dict>
-    </dict>
-    <dict>
-      <key>name</key>
-      <string>PHP: Function</string>
-      <key>scope</key>
-      <string>entity.name.function.php</string>
-      <key>settings</key>
-      <dict>
-        <key>foreground</key>
-        <string>#899090</string>
-      </dict>
-    </dict>
-    <dict>
-      <key>name</key>
-      <string>PHP: Function Construct</string>
-      <key>scope</key>
-      <string>support.function.construct.php</string>
-      <key>settings</key>
-      <dict>
-        <key>foreground</key>
-        <string>#a6e22e</string>
-      </dict>
-    </dict>
-    <dict>
-      <key>name</key>
-      <string>PHP: Function Call</string>
-      <key>scope</key>
-      <string>entity.name.type.class.php, meta.function-call.php, meta.function-call.static.php, meta.function-call.object.php</string>
-      <key>settings</key>
-      <dict>
-        <key>foreground</key>
-        <string>#839496</string>
-      </dict>
-    </dict>
-    <dict>
-      <key>name</key>
-      <string>PHP: Comment</string>
-      <key>scope</key>
-      <string>keyword.other.phpdoc</string>
-      <key>settings</key>
-      <dict>
-        <key>fontStyle</key>
-        <string></string>
-        <key>foreground</key>
-        <string>#899090</string>
-      </dict>
-    </dict>
-    <dict>
-      <key>name</key>
-      <string>PHP: Source Emebedded</string>
-      <key>scope</key>
-      <string>source.php.embedded.block.html</string>
-      <key>settings</key>
-      <dict>
-        <key>foreground</key>
-        <string>#bd3613</string>
-      </dict>
-    </dict>
-    <dict>
-      <key>name</key>
-      <string>PHP: Storage Type Function</string>
-      <key>scope</key>
-      <string>storage.type.function.php</string>
-      <key>settings</key>
-      <dict>
-        <key>foreground</key>
-        <string>#f92672dd</string>
-      </dict>
-    </dict>
+		<dict>
+			<key>name</key>
+			<string>PHP: []</string>
+			<key>scope</key>
+			<string>keyword.operator.index-start.php, keyword.operator.index-end.php</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#ffffff</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>PHP: Array</string>
+			<key>scope</key>
+			<string>meta.array.php</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#ffffff</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>PHP: Array()</string>
+			<key>scope</key>
+			<string>meta.array.php support.function.construct.php, meta.array.empty.php support.function.construct.php</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#e42e70</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>PHP: Array Construct</string>
+			<key>scope</key>
+			<string>support.function.construct.php</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#e42e70</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>PHP: Storage Type Function</string>
+			<key>scope</key>
+			<string>storage.type.function.php</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#f92672dd</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>PHP: Numeric Constant</string>
+			<key>scope</key>
+			<string>constant.numeric.php</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#be84ff</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>PHP: New</string>
+			<key>scope</key>
+			<string>keyword.other.new.php</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#f6aa11</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>PHP: ::</string>
+			<key>scope</key>
+			<string>support.class.php</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#ffffff</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>PHP: Other Property</string>
+			<key>scope</key>
+			<string>variable.other.property.php</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#f6aa11</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>PHP: Class</string>
+			<key>scope</key>
+			<string>storage.modifier.extends.php, storage.type.class.php, keyword.operator.class.php</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#a6e22e</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>PHP: Inherited Class</string>
+			<key>scope</key>
+			<string>meta.other.inherited-class.php</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#a6e22e</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>PHP: Storage Type</string>
+			<key>scope</key>
+			<string>storage.type.php</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#66d9ef</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>PHP: Function</string>
+			<key>scope</key>
+			<string>entity.name.function.php</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#66d9ef</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>PHP: Function Construct</string>
+			<key>scope</key>
+			<string>support.function.construct.php</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#a6e22e</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>PHP: Function Call</string>
+			<key>scope</key>
+			<string>entity.name.type.class.php, meta.function-call.php, meta.function-call.static.php, meta.function-call.object.php</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#ffffff</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>PHP: Comment</string>
+			<key>scope</key>
+			<string>keyword.other.phpdoc</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#7c7865</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>PHP: Source Emebedded</string>
+			<key>scope</key>
+			<string>source.php.embedded.block.html</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#ffffff</string>
+			</dict>
+		</dict>
 		<dict>
 			<key>name</key>
 			<string>Invalid</string>
@@ -1011,6 +1011,17 @@
 			<dict>
 				<key>foreground</key>
 				<string>#66d9ef</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Ruby: Constant</string>
+			<key>scope</key>
+			<string>constant.language.ruby, constant.numeric.ruby</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#ae81ff</string>
 			</dict>
 		</dict>
 		<dict>
@@ -1135,17 +1146,6 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Ruby: Constant</string>
-			<key>scope</key>
-			<string>constant.language.ruby, constant.numeric.ruby</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#ae81ff</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
 			<string>Ruby: Constant Other</string>
 			<key>scope</key>
 			<string>variable.other.constant.ruby</string>
@@ -1189,7 +1189,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#f92672dd</string>
+				<string>#e42e70</string>
 			</dict>
 		</dict>
 		<dict>
@@ -1248,7 +1248,7 @@
 				<key>fontStyle</key>
 				<string>italic</string>
 				<key>foreground</key>
-				<string>#f92672dd</string>
+				<string>#e42e70</string>
 			</dict>
 		</dict>
 		<dict>
@@ -1514,40 +1514,42 @@
 			<dict>
 				<key>fontStyle</key>
 				<string>italic</string>
+				<key>foreground</key>
+				<string>#7c7865</string>
 			</dict>
 		</dict>
 		<dict>
-		  <key>name</key>
-		  <string>GitGutter deleted</string>
-		  <key>scope</key>
-		  <string>markup.deleted.git_gutter</string>
-		  <key>settings</key>
-		  <dict>
-		    <key>foreground</key>
-		    <string>#F92672</string>
-		  </dict>
+			<key>name</key>
+			<string>GitGutter deleted</string>
+			<key>scope</key>
+			<string>markup.deleted.git_gutter</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#F92672</string>
+			</dict>
 		</dict>
 		<dict>
-		  <key>name</key>
-		  <string>GitGutter inserted</string>
-		  <key>scope</key>
-		  <string>markup.inserted.git_gutter</string>
-		  <key>settings</key>
-		  <dict>
-		    <key>foreground</key>
-		    <string>#A6E22E</string>
-		  </dict>
+			<key>name</key>
+			<string>GitGutter inserted</string>
+			<key>scope</key>
+			<string>markup.inserted.git_gutter</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#A6E22E</string>
+			</dict>
 		</dict>
 		<dict>
-		  <key>name</key>
-		  <string>GitGutter changed</string>
-		  <key>scope</key>
-		  <string>markup.changed.git_gutter</string>
-		  <key>settings</key>
-		  <dict>
-		    <key>foreground</key>
-		    <string>#967EFB</string>
-		  </dict>
+			<key>name</key>
+			<string>GitGutter changed</string>
+			<key>scope</key>
+			<string>markup.changed.git_gutter</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#967EFB</string>
+			</dict>
 		</dict>
 	</array>
 	<key>uuid</key>
