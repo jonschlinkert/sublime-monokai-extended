@@ -468,7 +468,7 @@
 			<key>name</key>
 			<string>CSS: #Id</string>
 			<key>scope</key>
-			<string>meta.selector.css entity.other.attribute-name.id, entity.other.attribute-name.id.less</string>
+			<string>meta.selector.css entity.other.attribute-name.id</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -527,7 +527,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#ffffff</string>
+				<string>#f92672</string>
 			</dict>
 		</dict>
 		<dict>

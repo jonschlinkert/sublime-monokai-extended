@@ -285,7 +285,7 @@
         }, 
         {
             "name": "CSS: #Id", 
-            "scope": "meta.selector.css entity.other.attribute-name.id, entity.other.attribute-name.id.less", 
+            "scope": "meta.selector.css entity.other.attribute-name.id", 
             "settings": {
                 "foreground": "#f6aa11"
             }
@@ -322,7 +322,7 @@
             "name": "CSS: Tag Punctuation", 
             "scope": "punctuation.definition.tag.css", 
             "settings": {
-                "foreground": "#ffffff"
+                "foreground": "#f92672"
             }
         }, 
         {
