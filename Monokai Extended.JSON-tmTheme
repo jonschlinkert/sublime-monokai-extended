@@ -683,6 +683,27 @@
             "settings": {
                 "fontStyle": "italic"
             }
+        },
+        {
+            "name": "GitGutter deleted",
+            "scope": "markup.deleted.git_gutter",
+            "settings": {
+                "foreground": "#F92672"
+            }
+        },
+        {
+            "name": "GitGutter inserted",
+            "scope": "markup.inserted.git_gutter",
+            "settings": {
+                "foreground": "#A6E22E"
+            }
+        },
+        {
+            "name": "GitGutter changed",
+            "scope": "markup.changed.git_gutter",
+            "settings": {
+                "foreground": "#967EFB"
+            }
         }
     ], 
     "uuid": "1D07ACC0-832F-11E2-9E96-0800200C9A66"
