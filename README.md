@@ -4,19 +4,7 @@
 
 Companion to [sublime-markdown-extended](https://github.com/jonschlinkert/sublime-markdown-extended).
 
-
-## Examples
-
-### LESS Before
-
-(The updated styling for #Ids also applies to CSS)
-
-![image](https://f.cloud.github.com/assets/383994/780868/7adf8f1a-ea0f-11e2-84c5-38792a146b31.png)
-
-### LESS After
-
-![image](https://f.cloud.github.com/assets/383994/780859/5ef41b40-ea0f-11e2-87d5-1f2f6928017e.png)
-
+#### [Jump to Examples ↓](#examples)
 
 ## Getting Started
 
@@ -111,9 +99,26 @@ Adds scopes, support and/or improves styling for:
 * `markdown: table`
 
 
-## Markdown Example
+## Examples
+
+### Markdown
+
+See detailed [before and after examples](https://github.com/jonschlinkert/sublime-monokai-extended/issues/4)
 
 ![image](https://f.cloud.github.com/assets/383994/726833/0fde0d16-e138-11e2-8e3d-8dbfc91224e7.png)
+
+
+### CSS
+
+See detailed [before and after examples](https://github.com/jonschlinkert/sublime-monokai-extended/issues/5)
+
+### LESS Before
+
+![image](https://f.cloud.github.com/assets/383994/780868/7adf8f1a-ea0f-11e2-84c5-38792a146b31.png)
+
+### LESS After
+
+![image](https://f.cloud.github.com/assets/383994/780859/5ef41b40-ea0f-11e2-87d5-1f2f6928017e.png)
 
 
 ## Author
