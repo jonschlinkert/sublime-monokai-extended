@@ -18,21 +18,35 @@ Companion to [sublime-markdown-extended](https://github.com/jonschlinkert/sublim
 ![image](https://f.cloud.github.com/assets/383994/780859/5ef41b40-ea0f-11e2-87d5-1f2f6928017e.png)
 
 
-## Installation
+## Getting Started
 
-The easiest way to install this plugin is to go to `Preferences -> Browse Packages`, and then:
+### 1. Installation
+
+#### Package Control
+
+If you already have [Package Control](http://wbond.net/sublime_packages/package_control/) installed in Sublime Text:
+
+* Select "Install Package" from the Command Palette: <kbd>Ctrl+Shift+P</kbd> on Windows and Linux or <kbd>⇧⌘P</kbd> on OS X)
+* Search for "**Monokai Extended**" and click <kbd>enter</kbd>.
+
+#### Manual Installation
+
+Go to `Preferences -> Browse Packages`, and then either download and unzip this plugin into that directory, or:
 
 ``` bash
 git clone https://github.com/jonschlinkert/sublime-monokai-extended.git "sublime-monokai-extended"
 ```
+
+### 2. Switch Themes
 
 Then inside Sublime Text, go to `Preferences -> Color Scheme -> User -> Monokai Extended`.
 
 
 ## Monokai Enhancements
 
-Adds and/or improves styling for:
+Adds scopes, support and/or improves styling for:
 
+* [GitGutter](https://github.com/jisaacks/GitGutter)
 * `HTML: Doctype/XML Processing`
 * `HTML: Comment Block`
 * `HTML: Script`
