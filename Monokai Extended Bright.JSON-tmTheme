@@ -491,6 +491,27 @@
             }
         }, 
         {
+            "name": "GitGutter deleted",
+            "scope": "markup.deleted.git_gutter",
+            "settings": {
+                "foreground": "#F92672"
+            }
+        },
+        {
+            "name": "GitGutter inserted",
+            "scope": "markup.inserted.git_gutter",
+            "settings": {
+                "foreground": "#A6E22E"
+            }
+        },
+        {
+            "name": "GitGutter changed",
+            "scope": "markup.changed.git_gutter",
+            "settings": {
+                "foreground": "#967EFB"
+            }
+        },
+        {
             "scope": "constant.numeric.line-number.find-in-files - match", 
             "settings": {
                 "foreground": "#AE81FFA0"
