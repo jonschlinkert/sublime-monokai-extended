@@ -1015,6 +1015,63 @@
 		</dict>
 		<dict>
 			<key>name</key>
+			<string>Perl: variables</string>
+			<key>scope</key>
+			<string>punctuation.definition.variable.perl, variable.other.readwrite.global.perl, variable.other.predefined.perl, keyword.operator.comparison.perl</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#e42e70</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Perl: functions</string>
+			<key>scope</key>
+			<string>support.function.perl</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#66d9ef</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Perl: comments</string>
+			<key>scope</key>
+			<string>comment.line.number-sign.perl</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>italic</string>
+				<key>foreground</key>
+				<string>#75715e</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Perl: quotes</string>
+			<key>scope</key>
+			<string>punctuation.definition.string.begin.perl, punctuation.definition.string.end.perl</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#ffffff</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Perl: char</string>
+			<key>scope</key>
+			<string>constant.character.escape.perl</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#dc322f</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
 			<string>Ruby: Constant</string>
 			<key>scope</key>
 			<string>constant.language.ruby, constant.numeric.ruby</string>

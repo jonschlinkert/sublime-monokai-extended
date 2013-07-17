@@ -629,6 +629,42 @@
             }
         }, 
         {
+            "name": "Perl: variables", 
+            "scope": "punctuation.definition.variable.perl, variable.other.readwrite.global.perl, variable.other.predefined.perl, keyword.operator.comparison.perl", 
+            "settings": {
+                "foreground": "#e42e70"
+            }
+        }, 
+        {
+            "name": "Perl: functions", 
+            "scope": "support.function.perl", 
+            "settings": {
+                "foreground": "#66d9ef"
+            }
+        }, 
+        {
+            "name": "Perl: comments", 
+            "scope": "comment.line.number-sign.perl", 
+            "settings": {
+                "fontStyle": "italic", 
+                "foreground": "#75715e"
+            }
+        }, 
+        {
+            "name": "Perl: quotes", 
+            "scope": "punctuation.definition.string.begin.perl, punctuation.definition.string.end.perl", 
+            "settings": {
+                "foreground": "#ffffff"
+            }
+        }, 
+        {
+            "name": "Perl: char", 
+            "scope": "constant.character.escape.perl", 
+            "settings": {
+                "foreground": "#dc322f"
+            }
+        }, 
+        {
             "name": "Ruby: Constant", 
             "scope": "constant.language.ruby, constant.numeric.ruby", 
             "settings": {
