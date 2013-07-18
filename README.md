@@ -35,6 +35,7 @@ Then inside Sublime Text, go to `Preferences -> Color Scheme -> User -> Monokai 
 Adds scopes, support and/or improves styling for:
 
 * [GitGutter](https://github.com/jisaacks/GitGutter)
+* `Makefile`
 * `HTML: Doctype/XML Processing`
 * `HTML: Comment Block`
 * `HTML: Script`

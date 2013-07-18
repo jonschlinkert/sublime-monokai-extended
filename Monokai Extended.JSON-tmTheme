@@ -979,6 +979,46 @@
             }
         }, 
         {
+            "name": "Makefile: Comment", 
+            "scope": "comment.line.number-sign.makefile", 
+            "settings": {
+                "fontStyle": "", 
+                "foreground": "#7c7865"
+            }
+        }, 
+        {
+            "name": "Makefile: Comment punctuation", 
+            "scope": "punctuation.definition.comment.makefile", 
+            "settings": {
+                "fontStyle": "", 
+                "foreground": "#7c7865"
+            }
+        }, 
+        {
+            "name": "Makefile: Variables", 
+            "scope": "variable.other.makefile", 
+            "settings": {
+                "fontStyle": "", 
+                "foreground": "#f92672"
+            }
+        }, 
+        {
+            "name": "Makefile: Function name", 
+            "scope": "entity.name.function.makefile", 
+            "settings": {
+                "fontStyle": "", 
+                "foreground": "#a6e22e"
+            }
+        }, 
+        {
+            "name": "Makefile: Function", 
+            "scope": "meta.function.makefile", 
+            "settings": {
+                "fontStyle": "", 
+                "foreground": "#66d9ef"
+            }
+        }, 
+        {
             "name": "GitGutter deleted", 
             "scope": "markup.deleted.git_gutter", 
             "settings": {
