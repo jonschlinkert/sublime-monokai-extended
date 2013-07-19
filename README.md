@@ -111,15 +111,20 @@ See detailed [before and after examples](https://github.com/jonschlinkert/sublim
 
 ### CSS
 
-See detailed [before and after examples](https://github.com/jonschlinkert/sublime-monokai-extended/issues/5)
+The following improvements apply to both CSS and LESS.
 
-### LESS Before
+### CSS Before
 
-![image](https://f.cloud.github.com/assets/383994/780868/7adf8f1a-ea0f-11e2-84c5-38792a146b31.png)
+#### Spot the #ids at a glance?
 
-### LESS After
+![image](https://f.cloud.github.com/assets/383994/810420/8b3f263a-eeb6-11e2-9c60-1ec64c8e455b.png)
 
-![image](https://f.cloud.github.com/assets/383994/780859/5ef41b40-ea0f-11e2-87d5-1f2f6928017e.png)
+### CSS After
+
+#### How about now?
+
+![image](https://f.cloud.github.com/assets/383994/810415/63269ae8-eeb6-11e2-8731-5c73dd1d31a7.png)
+
 
 
 ## Author
