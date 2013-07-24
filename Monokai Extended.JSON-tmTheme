@@ -927,7 +927,7 @@
             "name": "Shell: variable", 
             "scope": "variable.other.normal.shell", 
             "settings": {
-                "foreground": "#ffffff"
+                "foreground": "#66d9ef"
             }
         }, 
         {
@@ -943,7 +943,15 @@
             "scope": "meta.scope.for-in-loop.shell, variable.other.loop.shell", 
             "settings": {
                 "fontStyle": "", 
-                "foreground": "#536871"
+                "foreground": "#fd971f"
+            }
+        }, 
+        {
+            "name": "Shell: Function name", 
+            "scope": "entity.name.function.shell", 
+            "settings": {
+                "fontStyle": "", 
+                "foreground": "#a6e22e"
             }
         }, 
         {
@@ -951,7 +959,7 @@
             "scope": "punctuation.definition.string.end.shell, punctuation.definition.string.begin.shell", 
             "settings": {
                 "fontStyle": "", 
-                "foreground": "#a6e22e"
+                "foreground": "#ffffff"
             }
         }, 
         {
@@ -959,7 +967,7 @@
             "scope": "meta.scope.case-block.shell, meta.scope.case-body.shell", 
             "settings": {
                 "fontStyle": "", 
-                "foreground": "#536871"
+                "foreground": "#fd971f"
             }
         }, 
         {
@@ -967,7 +975,7 @@
             "scope": "punctuation.definition.logical-expression.shell", 
             "settings": {
                 "fontStyle": "", 
-                "foreground": "#cd1e1d"
+                "foreground": "#ffffff"
             }
         }, 
         {
