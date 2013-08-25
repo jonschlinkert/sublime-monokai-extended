@@ -512,6 +512,20 @@
             }
         },
         {
+            "name": "GitGutter ignored",
+            "scope": "markup.ignored.git_gutter",
+            "settings": {
+                "foreground": "#565656"
+            }
+        },
+        {
+            "name": "GitGutter untracked",
+            "scope": "markup.untracked.git_gutter",
+            "settings": {
+                "foreground": "#565656"
+            }
+        },
+        {
             "scope": "constant.numeric.line-number.find-in-files - match", 
             "settings": {
                 "foreground": "#AE81FFA0"
