@@ -48,8 +48,6 @@
 				<string>#000000</string>
 				<key>foreground</key>
 				<string>#f8f8f2</string>
-				<key>guide</key>
-				<string>#92003b</string>
 				<key>invisibles</key>
 				<string>#3b3a32</string>
 				<key>lineHighlight</key>
