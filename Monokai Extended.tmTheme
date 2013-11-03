@@ -29,7 +29,7 @@
 			<key>settings</key>
 			<dict>
 				<key>activeGuide</key>
-				<string>#9d550fb0</string>
+				<string>#7fb11b</string>
 				<key>background</key>
 				<string>#222222</string>
 				<key>bracketContentsForeground</key>
@@ -48,6 +48,8 @@
 				<string>#000000</string>
 				<key>foreground</key>
 				<string>#f8f8f2</string>
+				<key>guide</key>
+				<string>#92003b</string>
 				<key>invisibles</key>
 				<string>#3b3a32</string>
 				<key>lineHighlight</key>
@@ -56,6 +58,8 @@
 				<string>#444444</string>
 				<key>selectionBorder</key>
 				<string>#1c1c1c</string>
+				<key>stackGuide</key>
+				<string>#635f2d</string>
 				<key>tagsOptions</key>
 				<string>stippled_underline</string>
 			</dict>
