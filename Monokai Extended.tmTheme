@@ -1720,7 +1720,7 @@
 				<key>background</key>
 				<string>#FFFFAA</string>
 				<key>foreground</key>
-				<string>#FFFFFF</string>
+				<string>#333333</string>
 			</dict>
 		</dict>
 		<dict>
