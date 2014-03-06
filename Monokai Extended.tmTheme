@@ -734,7 +734,7 @@
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#e42e70</string>
+				<string>#66d9ef</string>
 			</dict>
 		</dict>
 		<dict>
@@ -745,7 +745,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#e42e70</string>
+				<string>#66d9ef</string>
 			</dict>
 		</dict>
 		<dict>
@@ -756,7 +756,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#f92672dd</string>
+				<string>#66d9ef</string>
 			</dict>
 		</dict>
 		<dict>
@@ -778,7 +778,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#f6aa11</string>
+				<string>#e42e70</string>
 			</dict>
 		</dict>
 		<dict>
@@ -789,9 +789,9 @@
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
-				<string></string>
+				<string> italic</string>
 				<key>foreground</key>
-				<string>#ffffff</string>
+				<string>#66d9ef</string>
 			</dict>
 		</dict>
 		<dict>
@@ -813,7 +813,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#a6e22e</string>
+				<string>#e42e70</string>
 			</dict>
 		</dict>
 		<dict>
@@ -826,7 +826,7 @@
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#a6e22e</string>
+				<string>#66d9ef</string>
 			</dict>
 		</dict>
 		<dict>
@@ -848,7 +848,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#66d9ef</string>
+				<string>#a6e22e</string>
 			</dict>
 		</dict>
 		<dict>
@@ -859,7 +859,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#a6e22e</string>
+				<string>#66d9ef</string>
 			</dict>
 		</dict>
 		<dict>
@@ -990,7 +990,7 @@
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#a6e22e</string>
+				<string>#3bc0f0</string>
 			</dict>
 		</dict>
 		<dict>
@@ -1695,8 +1695,8 @@
 			<string>markup.ignored.git_gutter</string>
 			<key>settings</key>
 			<dict>
-			    <key>foreground</key>
-			    <string>#565656</string>
+				<key>foreground</key>
+				<string>#565656</string>
 			</dict>
 		</dict>
 		<dict>
@@ -1811,6 +1811,39 @@
 			<dict>
 				<key>foreground</key>
 				<string>#E6DB74</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>SublimeLinter Error</string>
+			<key>scope</key>
+			<string>sublimelinter.mark.error</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#D02000</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>SublimeLinter Warning</string>
+			<key>scope</key>
+			<string>sublimelinter.mark.warning</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#DDB700</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>SublimeLinter Gutter Mark</string>
+			<key>scope</key>
+			<string>sublimelinter.gutter-mark</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#FFFFFF</string>
 			</dict>
 		</dict>
 	</array>
