@@ -479,6 +479,17 @@
 		</dict>
 		<dict>
 			<key>name</key>
+			<string>CSS: #Id for SCSS</string>
+			<key>scope</key>
+			<string>meta.selector.css entity.other.attribute-name.id</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#f6aa11</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
 			<string>CSS: .class</string>
 			<key>scope</key>
 			<string>meta.selector.css entity.other.attribute-name.class</string>
