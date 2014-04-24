@@ -481,7 +481,7 @@
 			<key>name</key>
 			<string>CSS: #Id for SCSS</string>
 			<key>scope</key>
-			<string>meta.selector.css entity.other.attribute-name.id</string>
+			<string>entity.other.attribute-name.id</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
