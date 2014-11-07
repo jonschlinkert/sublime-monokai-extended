@@ -229,7 +229,7 @@
             "name": "HTML: Script", 
             "scope": "entity.name.tag.script.html", 
             "settings": {
-                "fontStyle": "italic"
+                "fontStyle": ""
             }
         }, 
         {
