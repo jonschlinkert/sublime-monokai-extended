@@ -886,19 +886,6 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>PHP: Comment</string>
-			<key>scope</key>
-			<string>keyword.other.phpdoc</string>
-			<key>settings</key>
-			<dict>
-				<key>fontStyle</key>
-				<string></string>
-				<key>foreground</key>
-				<string>#7c7865</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
 			<string>PHP: Source Emebedded</string>
 			<key>scope</key>
 			<string>source.php.embedded.block.html</string>
