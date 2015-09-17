@@ -671,6 +671,19 @@
 		</dict>
 		<dict>
 			<key>name</key>
+			<string>JS: Literal language variable</string>
+			<key>scope</key>
+			<string>variable.language.arguments.js, variable.language.super.js, variable.language.this.js, variable.language.self.js, variable.language.proto.js, variable.language.constructor.js, variable.language.prototype.js</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string> italic</string>
+				<key>foreground</key>
+				<string>#66d9ef</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
 			<string>JS: []</string>
 			<key>scope</key>
 			<string>meta.brace.square.js</string>
