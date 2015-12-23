@@ -402,6 +402,14 @@
             "settings": {
                 "foreground": "#ae81ff"
             }
+        },
+        {
+            "JS: Literal language variable":
+            "scope": "variable.language.arguments.js, variable.language.super.js, variable.language.this.js, variable.language.self.js, variable.language.proto.js, variable.language.constructor.js, variable.language.prototype.js",
+            "settings": {
+                "fontStyle": " italic", 
+                "foreground": "#66d9ef"
+            }
         }, 
         {
             "name": "JS: []", 

@@ -76,6 +76,7 @@ Adds scopes, support and/or improves styling for:
 * `js: source`
 * `js: function`
 * `js: numeric constant`
+* `js: literal language variable` (When using [babel-sublime](https://github.com/babel/babel-sublime))
 * `js: []`
 * `js: ()`
 * `js: {}`
