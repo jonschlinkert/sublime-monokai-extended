@@ -805,54 +805,54 @@
                 "foreground": "#fd971f"
             }
         }, 
-        {
-            "name": "Markup: Heading 1", 
-            "scope": "markup.heading.1.markdown", 
-            "settings": {
-                "fontStyle": "", 
-                "foreground": "#fc951e"
-            }
-        }, 
-        {
-            "name": "Markup: Heading 2", 
-            "scope": "markup.heading.2.markdown", 
-            "settings": {
-                "fontStyle": "", 
-                "foreground": "#e8891c"
-            }
-        }, 
-        {
-            "name": "Markup: Heading 3", 
-            "scope": "markup.heading.3.markdown", 
-            "settings": {
-                "fontStyle": "", 
-                "foreground": "#d47d19"
-            }
-        }, 
-        {
-            "name": "Markup: Heading 4", 
-            "scope": "markup.heading.4.markdown", 
-            "settings": {
-                "fontStyle": "", 
-                "foreground": "#bf7117"
-            }
-        }, 
-        {
-            "name": "Markup: Heading 5", 
-            "scope": "markup.heading.5.markdown", 
-            "settings": {
-                "fontStyle": "", 
-                "foreground": "#ab6515"
-            }
-        }, 
-        {
-            "name": "Markup: Heading 6", 
-            "scope": "markup.heading.6.markdown", 
-            "settings": {
-                "fontStyle": "", 
-                "foreground": "#965912"
-            }
-        }, 
+        // {
+        //     "name": "Markup: Heading 1", 
+        //     "scope": "markup.heading.1.markdown", 
+        //     "settings": {
+        //         "fontStyle": "", 
+        //         "foreground": "#fc951e"
+        //     }
+        // }, 
+        // {
+        //     "name": "Markup: Heading 2", 
+        //     "scope": "markup.heading.2.markdown", 
+        //     "settings": {
+        //         "fontStyle": "", 
+        //         "foreground": "#e8891c"
+        //     }
+        // }, 
+        // {
+        //     "name": "Markup: Heading 3", 
+        //     "scope": "markup.heading.3.markdown", 
+        //     "settings": {
+        //         "fontStyle": "", 
+        //         "foreground": "#d47d19"
+        //     }
+        // }, 
+        // {
+        //     "name": "Markup: Heading 4", 
+        //     "scope": "markup.heading.4.markdown", 
+        //     "settings": {
+        //         "fontStyle": "", 
+        //         "foreground": "#bf7117"
+        //     }
+        // }, 
+        // {
+        //     "name": "Markup: Heading 5", 
+        //     "scope": "markup.heading.5.markdown", 
+        //     "settings": {
+        //         "fontStyle": "", 
+        //         "foreground": "#ab6515"
+        //     }
+        // }, 
+        // {
+        //     "name": "Markup: Heading 6", 
+        //     "scope": "markup.heading.6.markdown", 
+        //     "settings": {
+        //         "fontStyle": "", 
+        //         "foreground": "#965912"
+        //     }
+        // }, 
         {
             "name": "Markup: italic", 
             "scope": "markup.italic", 
