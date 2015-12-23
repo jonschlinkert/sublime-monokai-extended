@@ -630,6 +630,84 @@
 		</dict>
 		<dict>
 			<key>name</key>
+			<string>Markup: Heading 1</string>
+			<key>scope</key>
+			<string>markup.heading.1.markdown</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#fc951e</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Markup: Heading 2</string>
+			<key>scope</key>
+			<string>markup.heading.2.markdown</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#e8891c</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Markup: Heading 3</string>
+			<key>scope</key>
+			<string>markup.heading.3.markdown</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#d47d19</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Markup: Heading 4</string>
+			<key>scope</key>
+			<string>markup.heading.4.markdown</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#bf7117</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Markup: Heading 5</string>
+			<key>scope</key>
+			<string>markup.heading.5.markdown</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#ab6515</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Markup: Heading 6</string>
+			<key>scope</key>
+			<string>markup.heading.6.markdown</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#965912</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
 			<string>Markup: Italic</string>
 			<key>scope</key>
 			<string>markup.italic</string>
