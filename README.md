@@ -127,12 +127,17 @@ The following improvements apply to both CSS and LESS.
 
 
 
-## Author
+## Authors
 
 **Jon Schlinkert**
 
 + [http://twitter.com/jonschlinkert](http://twitter.com/jonschlinkert)
 + [http://github.com/jonschlinkert](http://github.com/jonschlinkert)
+
+**Alexander Krivoshhekov**
+
++ [http://twitter.com/FlatDev](http://twitter.com/FlatDev)
++ [http://github.com/SuperPaintman](http://github.com/SuperPaintman)
 
 
 ## Copyright and license
