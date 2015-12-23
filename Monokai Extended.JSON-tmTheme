@@ -830,6 +830,14 @@
             }
         }, 
         {
+            "name": "Markup: strike", 
+            "scope": "markup.strike", 
+            "settings": {
+                "fontStyle": "", // Or add `strike`, but it doesn't support
+                "foreground": "#cc4273"
+            }
+        }, 
+        {
             "name": "Markdown: Blockquote", 
             "scope": "markup.quote, punctuation.definition.blockquote.markdown", 
             "settings": {
@@ -1060,7 +1068,7 @@
             "settings": {
                 "foreground": "#565656"
             }
-        },
+        }
     ], 
     "uuid": "1D07ACC0-832F-11E2-9E96-0800200C9A66"
 }

@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>author</key>
-	<string>github.com&#x2f;jonschlinkert</string>
+	<string>github.com/jonschlinkert</string>
 	<key>colorSpaceName</key>
 	<string>sRGB</string>
 	<key>gutterSettings</key>
@@ -29,7 +29,7 @@
 			<key>settings</key>
 			<dict>
 				<key>activeGuide</key>
-				<string>#7fb11b</string>
+				<string>#9d550fb0</string>
 				<key>background</key>
 				<string>#222222</string>
 				<key>bracketContentsForeground</key>
@@ -56,8 +56,6 @@
 				<string>#444444</string>
 				<key>selectionBorder</key>
 				<string>#1c1c1c</string>
-				<key>stackGuide</key>
-				<string>#635f2d</string>
 				<key>tagsOptions</key>
 				<string>stippled_underline</string>
 			</dict>
@@ -271,7 +269,7 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Library class&#x2f;type</string>
+			<string>Library class/type</string>
 			<key>scope</key>
 			<string>support.type, support.class</string>
 			<key>settings</key>
@@ -352,7 +350,7 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>HTML: Doctype&#x2f;XML Processing</string>
+			<string>HTML: Doctype/XML Processing</string>
 			<key>scope</key>
 			<string>meta.tag.sgml.doctype.xml, declaration.sgml.html declaration.doctype, declaration.sgml.html declaration.doctype entity, declaration.sgml.html declaration.doctype string,  declaration.xml-processing, declaration.xml-processing entity, declaration.xml-processing string, doctype</string>
 			<key>settings</key>
@@ -471,17 +469,6 @@
 			<string>CSS: #Id</string>
 			<key>scope</key>
 			<string>meta.selector.css entity.other.attribute-name.id</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#f6aa11</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>CSS: #Id for SCSS</string>
-			<key>scope</key>
-			<string>entity.other.attribute-name.id</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -745,7 +732,7 @@
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#66d9ef</string>
+				<string>#e42e70</string>
 			</dict>
 		</dict>
 		<dict>
@@ -756,7 +743,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#66d9ef</string>
+				<string>#e42e70</string>
 			</dict>
 		</dict>
 		<dict>
@@ -767,7 +754,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#66d9ef</string>
+				<string>#f92672dd</string>
 			</dict>
 		</dict>
 		<dict>
@@ -789,7 +776,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#e42e70</string>
+				<string>#f6aa11</string>
 			</dict>
 		</dict>
 		<dict>
@@ -800,9 +787,9 @@
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
-				<string> italic</string>
+				<string></string>
 				<key>foreground</key>
-				<string>#66d9ef</string>
+				<string>#ffffff</string>
 			</dict>
 		</dict>
 		<dict>
@@ -824,7 +811,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#e42e70</string>
+				<string>#a6e22e</string>
 			</dict>
 		</dict>
 		<dict>
@@ -837,7 +824,7 @@
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#66d9ef</string>
+				<string>#a6e22e</string>
 			</dict>
 		</dict>
 		<dict>
@@ -859,7 +846,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#a6e22e</string>
+				<string>#66d9ef</string>
 			</dict>
 		</dict>
 		<dict>
@@ -870,7 +857,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#66d9ef</string>
+				<string>#a6e22e</string>
 			</dict>
 		</dict>
 		<dict>
@@ -882,6 +869,19 @@
 			<dict>
 				<key>foreground</key>
 				<string>#ffffff</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>PHP: Comment</string>
+			<key>scope</key>
+			<string>keyword.other.phpdoc</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#7c7865</string>
 			</dict>
 		</dict>
 		<dict>
@@ -988,7 +988,7 @@
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#3bc0f0</string>
+				<string>#a6e22e</string>
 			</dict>
 		</dict>
 		<dict>
@@ -1332,6 +1332,19 @@
 				<string>underline</string>
 				<key>foreground</key>
 				<string>#a6e22e</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Markup: strike</string>
+			<key>scope</key>
+			<string>markup.strike</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#cc4273</string>
 			</dict>
 		</dict>
 		<dict>
@@ -1706,142 +1719,6 @@
 			<dict>
 				<key>foreground</key>
 				<string>#565656</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>SublimeLinter Annotations</string>
-			<key>scope</key>
-			<string>sublimelinter.annotations</string>
-			<key>settings</key>
-			<dict>
-				<key>background</key>
-				<string>#FFFFAA</string>
-				<key>foreground</key>
-				<string>#333333</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>SublimeLinter Error Outline</string>
-			<key>scope</key>
-			<string>sublimelinter.outline.illegal</string>
-			<key>settings</key>
-			<dict>
-				<key>background</key>
-				<string>#FF4A52</string>
-				<key>foreground</key>
-				<string>#FFFFFF</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>SublimeLinter Error Underline</string>
-			<key>scope</key>
-			<string>sublimelinter.underline.illegal</string>
-			<key>settings</key>
-			<dict>
-				<key>background</key>
-				<string>#FF0000</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>SublimeLinter Warning Outline</string>
-			<key>scope</key>
-			<string>sublimelinter.outline.warning</string>
-			<key>settings</key>
-			<dict>
-				<key>background</key>
-				<string>#DF9400</string>
-				<key>foreground</key>
-				<string>#FFFFFF</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>SublimeLinter Warning Underline</string>
-			<key>scope</key>
-			<string>sublimelinter.underline.warning</string>
-			<key>settings</key>
-			<dict>
-				<key>background</key>
-				<string>#FF0000</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>SublimeLinter Violation Outline</string>
-			<key>scope</key>
-			<string>sublimelinter.outline.violation</string>
-			<key>settings</key>
-			<dict>
-				<key>background</key>
-				<string>#ffffff33</string>
-				<key>foreground</key>
-				<string>#FFFFFF</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>SublimeLinter Violation Underline</string>
-			<key>scope</key>
-			<string>sublimelinter.underline.violation</string>
-			<key>settings</key>
-			<dict>
-				<key>background</key>
-				<string>#FF0000</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>scope</key>
-			<string>constant.numeric.line-number.find-in-files - match</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#AE81FFA0</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>scope</key>
-			<string>entity.name.filename.find-in-files</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#E6DB74</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>SublimeLinter Error</string>
-			<key>scope</key>
-			<string>sublimelinter.mark.error</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#D02000</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>SublimeLinter Warning</string>
-			<key>scope</key>
-			<string>sublimelinter.mark.warning</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#DDB700</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>SublimeLinter Gutter Mark</string>
-			<key>scope</key>
-			<string>sublimelinter.gutter-mark</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#FFFFFF</string>
 			</dict>
 		</dict>
 	</array>
