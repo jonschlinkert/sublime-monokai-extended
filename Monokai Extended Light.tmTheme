@@ -1336,6 +1336,19 @@
 		</dict>
 		<dict>
 			<key>name</key>
+			<string>Markup: strike</string>
+			<key>scope</key>
+			<string>markup.strike</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>strike</string>
+				<key>foreground</key>
+				<string>#cc4273</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
 			<string>Markdown: Blockquote</string>
 			<key>scope</key>
 			<string>markup.quote, punctuation.definition.blockquote.markdown</string>

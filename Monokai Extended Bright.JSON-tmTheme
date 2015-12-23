@@ -412,6 +412,14 @@
             }
         }, 
         {
+            "name": "Markup: strike", 
+            "scope": "markup.strike", 
+            "settings": {
+                "fontStyle": "", // Or add `strike`, but it doesn't support
+                "foreground": "#cc4273"
+            }
+        }, 
+        {
             "name": "Markdown: Blockquote", 
             "scope": "markup.quote, punctuation.definition.blockquote.markdown", 
             "settings": {
