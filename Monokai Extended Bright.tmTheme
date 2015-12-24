@@ -959,6 +959,17 @@
 				<string>#E6DB74</string>
 			</dict>
 		</dict>
+		<dict>
+			<key>name</key>
+			<string>Nginx path</string>
+			<key>scope</key>
+			<string>string.other.path.nginx</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#fc951e</string>
+			</dict>
+		</dict>
 	</array>
 	<key>uuid</key>
 	<string>b76b4488-20c3-40a7-9499-457a451ee558</string>

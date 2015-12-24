@@ -1121,6 +1121,13 @@
             "settings": {
                 "foreground": "#565656"
             }
+        },
+        {
+            "name": "Nginx path",
+            "scope": "string.other.path.nginx",
+            "settings": {
+                "foreground": "#fc951e"
+            }
         }
     ],
     "uuid": "6d3d6dae-b9c2-48ad-9e2a-71fefe15be64"

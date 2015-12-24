@@ -1734,6 +1734,17 @@
 				<string>#565656</string>
 			</dict>
 		</dict>
+		<dict>
+			<key>name</key>
+			<string>Nginx path</string>
+			<key>scope</key>
+			<string>string.other.path.nginx</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#fc951e</string>
+			</dict>
+		</dict>
 	</array>
 	<key>uuid</key>
 	<string>1D07ACC0-832F-11E2-9E96-0800200C9A66</string>
