@@ -81,6 +81,7 @@ Adds scopes, support and/or improves styling for:
 * `js: ()`
 * `js: {}`
 * `JSON string`
+* `CoffeeScript: #{}`
 * `diff.range`
 * `markdown: plain` (Also install [sublime-markdown-extended](https://github.com/jonschlinkert/sublime-markdown-extended) for additional features.)
 * `markdown: raw inline`

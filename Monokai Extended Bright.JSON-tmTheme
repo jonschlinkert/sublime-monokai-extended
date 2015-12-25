@@ -299,6 +299,14 @@
                 "foreground": "#9DF39F"
             }
         }, 
+        // CoffeeScript
+        {
+            "name": "CoffeeScript String Interpolated",
+            "scope": "punctuation.section.embedded.coffee",
+            "settings": {
+                "foreground": "#e69f66"
+            }
+        },
         {
             "name": "Invalid", 
             "scope": "invalid", 

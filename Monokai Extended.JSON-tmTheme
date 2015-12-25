@@ -439,6 +439,14 @@
                 "foreground": "#cfcfc2"
             }
         }, 
+        // CoffeeScript
+        {
+            "name": "CoffeeScript String Interpolated",
+            "scope": "punctuation.section.embedded.coffee",
+            "settings": {
+                "foreground": "#e69f66"
+            }
+        },
         {
             "name": "PHP: []", 
             "scope": "keyword.operator.index-start.php, keyword.operator.index-end.php", 
