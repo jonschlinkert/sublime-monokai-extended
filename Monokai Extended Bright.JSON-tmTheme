@@ -340,21 +340,21 @@
         }, 
         {
             "name": "diff.deleted", 
-            "scope": "Markdown.deleted", 
+            "scope": "markup.deleted", 
             "settings": {
                 "foreground": "#F92672"
             }
         }, 
         {
             "name": "diff.inserted", 
-            "scope": "Markdown.inserted", 
+            "scope": "markup.inserted", 
             "settings": {
                 "foreground": "#A6E22E"
             }
         }, 
         {
             "name": "diff.changed", 
-            "scope": "Markdown.changed", 
+            "scope": "markup.changed", 
             "settings": {
                 "foreground": "#E6DB74"
             }
