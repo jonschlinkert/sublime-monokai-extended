@@ -627,7 +627,7 @@
             "scope": "storage.type.class.python, storage.type.function.python, storage.modifier.global.python", 
             "settings": {
                 "fontStyle": "", 
-                "foreground": "#a6e22e"
+                "foreground": "#3bc0f0"
             }
         }, 
         {
