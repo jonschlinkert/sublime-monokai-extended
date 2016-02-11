@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
 	<key>author</key>
@@ -585,7 +585,7 @@
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
-				<string> italic</string>
+				<string>italic</string>
 				<key>foreground</key>
 				<string>#e0fdce</string>
 			</dict>
@@ -601,6 +601,17 @@
 				<string></string>
 				<key>foreground</key>
 				<string>#ff9117</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>JS: this</string>
+			<key>scope</key>
+			<string>variable.language.this.js</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#ae81ff</string>
 			</dict>
 		</dict>
 		<dict>
@@ -624,7 +635,7 @@
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
-				<string> italic</string>
+				<string>italic</string>
 				<key>foreground</key>
 				<string>#66d9ef</string>
 			</dict>
@@ -650,7 +661,7 @@
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
-				<string> italic</string>
+				<string>italic</string>
 				<key>foreground</key>
 				<string>#66d9ef</string>
 			</dict>
@@ -1467,7 +1478,7 @@
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
-				<string> italic</string>
+				<string>italic</string>
 				<key>foreground</key>
 				<string>#66d9ef</string>
 			</dict>

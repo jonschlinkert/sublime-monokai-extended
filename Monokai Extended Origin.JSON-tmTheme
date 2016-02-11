@@ -357,7 +357,7 @@
             "name": "LESS mixins",
             "scope": "entity.other.less.mixin",
             "settings": {
-                "fontStyle": " italic",
+                "fontStyle": "italic",
                 "foreground": "#e0fdce"
             }
         },
@@ -367,6 +367,14 @@
             "settings": {
                 "fontStyle": "",
                 "foreground": "#ff9117"
+            }
+        },
+        // JavaScript
+        {
+            "name": "JS: this",
+            "scope": "variable.language.this.js",
+            "settings": {
+                "foreground": "#ae81ff"
             }
         },
         {
@@ -381,7 +389,7 @@
             "name": "JS: Storage Type",
             "scope": "storage.type.js",
             "settings": {
-                "fontStyle": " italic",
+                "fontStyle": "italic",
                 "foreground": "#66d9ef"
             }
         },
@@ -397,7 +405,7 @@
             "name": "JS: Function",
             "scope": "storage.type.function.js",
             "settings": {
-                "fontStyle": " italic",
+                "fontStyle": "italic",
                 "foreground": "#66d9ef"
             }
         },
@@ -910,7 +918,7 @@
             "name": "Markup: Quote",
             "scope": "markup.quote",
             "settings": {
-                "fontStyle": " italic",
+                "fontStyle": "italic",
                 "foreground": "#66d9ef"
             }
         },
