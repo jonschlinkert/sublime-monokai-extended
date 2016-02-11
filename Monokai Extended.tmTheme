@@ -597,7 +597,7 @@
 			<key>name</key>
 			<string>JS: Function Name</string>
 			<key>scope</key>
-			<string>meta.function.js, entity.name.function.js, support.function.dom.js</string>
+			<string>entity.name.function.js, support.function.dom.js</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
