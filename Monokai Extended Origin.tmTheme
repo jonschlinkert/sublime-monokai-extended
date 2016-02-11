@@ -738,6 +738,17 @@
 		</dict>
 		<dict>
 			<key>name</key>
+			<string>JS: Template String</string>
+			<key>scope</key>
+			<string>punctuation.template-string.element.begin.js, punctuation.template-string.element.end.js</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#e69f66</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
 			<string>JSON String</string>
 			<key>scope</key>
 			<string>meta.structure.dictionary.json string.quoted.double.json</string>
@@ -749,7 +760,7 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>CoffeeScript: String Interpolated</string>
+			<string>CoffeeScript: Template String</string>
 			<key>scope</key>
 			<string>punctuation.section.embedded.coffee</string>
 			<key>settings</key>

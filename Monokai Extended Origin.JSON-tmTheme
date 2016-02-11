@@ -454,6 +454,13 @@
             }
         },
         {
+            "name": "JS: Template String",
+            "scope": "punctuation.template-string.element.begin.js, punctuation.template-string.element.end.js",
+            "settings": {
+                "foreground": "#e69f66"
+            }
+        },
+        {
             "name": "JSON String",
             "scope": "meta.structure.dictionary.json string.quoted.double.json",
             "settings": {
@@ -462,7 +469,7 @@
         },
         // CoffeeScript
         {
-            "name": "CoffeeScript: String Interpolated",
+            "name": "CoffeeScript: Template String",
             "scope": "punctuation.section.embedded.coffee",
             "settings": {
                 "foreground": "#e69f66"
