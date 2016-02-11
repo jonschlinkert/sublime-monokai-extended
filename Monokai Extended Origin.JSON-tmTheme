@@ -386,6 +386,22 @@
             }
         },
         {
+            "name": "JS: Method Name",
+            "scope": "entity.name.method.js",
+            "settings": {
+                "fontStyle": "",
+                "foreground": "#a6e22e"
+            }
+        },
+        {
+            "name": "JS: Accessor Name",
+            "scope": "entity.name.accessor.js",
+            "settings": {
+                "fontStyle": "",
+                "foreground": "#a6e22e"
+            }
+        },
+        {
             "name": "JS: Storage Type",
             "scope": "storage.type.js",
             "settings": {
@@ -395,7 +411,7 @@
         },
         {
             "name": "JS: Source",
-            "scope": "text.html.basic source.js.embedded.html",
+            "scope": "text.html.basic, source.js.embedded.html",
             "settings": {
                 "fontStyle": "",
                 "foreground": "#ffffff"

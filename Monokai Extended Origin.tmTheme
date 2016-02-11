@@ -629,6 +629,32 @@
 		</dict>
 		<dict>
 			<key>name</key>
+			<string>JS: Method Name</string>
+			<key>scope</key>
+			<string>entity.name.method.js</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#a6e22e</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>JS: Accessor Name</string>
+			<key>scope</key>
+			<string>entity.name.accessor.js</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#a6e22e</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
 			<string>JS: Storage Type</string>
 			<key>scope</key>
 			<string>storage.type.js</string>
@@ -644,7 +670,7 @@
 			<key>name</key>
 			<string>JS: Source</string>
 			<key>scope</key>
-			<string>text.html.basic source.js.embedded.html</string>
+			<string>text.html.basic, source.js.embedded.html</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
