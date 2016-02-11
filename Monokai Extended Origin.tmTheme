@@ -749,13 +749,24 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>CoffeeScript String Interpolated</string>
+			<string>CoffeeScript: String Interpolated</string>
 			<key>scope</key>
 			<string>punctuation.section.embedded.coffee</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
 				<string>#e69f66</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>CoffeeScript: this</string>
+			<key>scope</key>
+			<string>variable.language.this.coffee</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#ae81ff</string>
 			</dict>
 		</dict>
 		<dict>

@@ -462,10 +462,17 @@
         },
         // CoffeeScript
         {
-            "name": "CoffeeScript String Interpolated",
+            "name": "CoffeeScript: String Interpolated",
             "scope": "punctuation.section.embedded.coffee",
             "settings": {
                 "foreground": "#e69f66"
+            }
+        },
+        {
+            "name": "CoffeeScript: this",
+            "scope": "variable.language.this.coffee",
+            "settings": {
+                "foreground": "#ae81ff"
             }
         },
         {
