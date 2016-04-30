@@ -1,8 +1,8 @@
 # [sublime-monokai-extended](https://github.com/jonschlinkert/sublime-monokai-extended)
 
-> Extends Monokai from Soda with new syntax highlighting for Markdown, LESS, and Handlebars and improved syntax highlighting for RegEx, HTML, LESS, CSS, JavaScript and more.
+> Extends Monokai from Soda with additional syntax highlighting for Markdown, LESS, and Handlebars and improved syntax highlighting for RegEx, HTML, LESS, CSS, JavaScript and more.
 
-Companion to [sublime-markdown-extended](https://github.com/jonschlinkert/sublime-markdown-extended).
+Companion to [sublime-markdown-extended](https://github.com/jonschlinkert/sublime-markdown-extended). 
 
 #### [Jump to Examples ↓](#examples)
 
@@ -17,6 +17,7 @@ If you already have [Package Control](http://wbond.net/sublime_packages/package_
 * Select "Install Package" from the Command Palette: <kbd>Ctrl+Shift+P</kbd> on Windows and Linux or <kbd>⇧⌘P</kbd> on OS X)
 * Search for "**Monokai Extended**" and click <kbd>enter</kbd>.
 
+
 #### Manual Installation
 
 Go to `Preferences -> Browse Packages`, and then either download and unzip this plugin into that directory, or:
@@ -24,6 +25,7 @@ Go to `Preferences -> Browse Packages`, and then either download and unzip this 
 ``` bash
 git clone https://github.com/jonschlinkert/sublime-monokai-extended.git "sublime-monokai-extended"
 ```
+
 
 ### 2. Switch Themes
 
@@ -142,10 +144,10 @@ The following improvements apply to both CSS and LESS.
 + [http://github.com/SuperPaintman](http://github.com/SuperPaintman)
 
 
-## Copyright and license
-Copyright 2013 Jon Schlinkert
+## License
 
-[MIT License](LICENSE-MIT)
+Copyright © 2013-2016, [Jon Schlinkert](https://github.com/jonschlinkert).
+Released under the [MIT license](LICENSE).
 
 [yfm]: http://assemble.io/docs/YAML-front-matter.html "YAML Front Matter"
 [gfm]: https://help.github.com/articles/github-flavored-markdown#syntax-highlighting "GitHub Flavored Markdown"
