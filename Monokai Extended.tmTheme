@@ -597,13 +597,26 @@
       <key>name</key>
       <string>JS: Instance constructor</string>
       <key>scope</key>
-      <string>meta.instance.constructor variable.function.constructor.js</string>
+      <string>meta.instance.constructor meta.function-call.constructor.js</string>
       <key>settings</key>
       <dict>
         <key>fontStyle</key>
         <string></string>
         <key>foreground</key>
         <string>#a6e22e</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>JS: es6 template delimiters ${}</string>
+      <key>scope</key>
+      <string>meta.template.expression.js punctuation.definition.template-expression.begin.js, meta.template.expression.js punctuation.definition.template-expression.end.js, meta.template.expression.js punctuation.accessor</string>
+      <key>settings</key>
+      <dict>
+        <key>fontStyle</key>
+        <string></string>
+        <key>foreground</key>
+        <string>#AFF132</string>
       </dict>
     </dict>
     <dict>
@@ -675,7 +688,7 @@
       <key>name</key>
       <string>JS: receiver</string>
       <key>scope</key>
-      <string>support.type.object.module.js</string>
+      <string>support.type.object.module.js, source.js meta.function.declaration.js support.class.js</string>
       <key>settings</key>
       <dict>
         <key>fontStyle</key>
@@ -775,7 +788,7 @@
       <key>name</key>
       <string>JS: ()</string>
       <key>scope</key>
-      <string>meta.brace.round, punctuation.definition.parameters.begin.js, punctuation.definition.parameters.end.js</string>
+      <string>meta.brace.round, punctuation.definition.parameters.begin.js, punctuation.definition.parameters.end.js, punctuation.definition.group</string>
       <key>settings</key>
       <dict>
         <key>foreground</key>
@@ -784,9 +797,9 @@
     </dict>
     <dict>
       <key>name</key>
-      <string>JS: {}</string>
+      <string>JS: object literal {}</string>
       <key>scope</key>
-      <string>meta.brace.curly.js</string>
+      <string>meta.brace.curly.js, meta.object-literal.js</string>
       <key>settings</key>
       <dict>
         <key>foreground</key>
