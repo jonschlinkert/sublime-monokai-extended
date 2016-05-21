@@ -1,4 +1,4 @@
-# [sublime-monokai-extended](https://github.com/jonschlinkert/sublime-monokai-extended)
+# [sublime-monokai-extended](https://github.com/jonschlinkert/sublime-monokai-extended) [![package control total downloads](https://img.shields.io/packagecontrol/dt/Monokai%20Extended.svg?style=flat-square)](https://packagecontrol.io/packages/Monokai%20Extended/)
 
 _(Companion to [sublime-markdown-extended](https://github.com/jonschlinkert/sublime-markdown-extended))_
 
