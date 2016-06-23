@@ -657,6 +657,7 @@
                 "foreground": "#3bc0f0"
             }
         },
+        // Python
         {
             "name": "Python: storage",
             "scope": "storage.type.class.python, storage.type.function.python, storage.modifier.global.python",
@@ -679,6 +680,14 @@
                 "foreground": "#66d9ef"
             }
         },
+        {
+            "name": "Python: function call",
+            "scope": "meta.function-call.python - punctuation - meta.function-call.arguments.python",
+            "settings": {
+                "foreground": "#A6E22E"
+            }
+        },
+        // Perl
         {
             "name": "Perl: variables",
             "scope": "punctuation.definition.variable.perl, variable.other.readwrite.global.perl, variable.other.predefined.perl, keyword.operator.comparison.perl",

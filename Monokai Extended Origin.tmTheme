@@ -1095,6 +1095,17 @@
 		</dict>
 		<dict>
 			<key>name</key>
+			<string>Python: function call</string>
+			<key>scope</key>
+			<string>meta.function-call.python - punctuation - meta.function-call.arguments.python</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#A6E22E</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
 			<string>Perl: variables</string>
 			<key>scope</key>
 			<string>punctuation.definition.variable.perl, variable.other.readwrite.global.perl, variable.other.predefined.perl, keyword.operator.comparison.perl</string>
