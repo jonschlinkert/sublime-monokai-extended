@@ -899,6 +899,17 @@
 		</dict>
 		<dict>
 			<key>name</key>
+			<string>LaTeX: Math Variables</string>
+			<key>scope</key>
+			<string>variable.other.math.tex</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#E6DB74</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
 			<string>GitGutter deleted</string>
 			<key>scope</key>
 			<string>markup.deleted.git_gutter</string>
