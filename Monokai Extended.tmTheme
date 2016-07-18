@@ -1605,6 +1605,17 @@
     </dict>
     <dict>
       <key>name</key>
+      <string>LaTeX: Math Variables</string>
+      <key>scope</key>
+      <string>variable.other.math.tex</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#e6db74</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
       <string>Other: Removal</string>
       <key>scope</key>
       <string>other.package.exclude, other.remove</string>
