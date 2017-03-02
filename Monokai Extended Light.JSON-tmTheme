@@ -436,7 +436,7 @@
             "scope": "meta.structure.dictionary.json string.quoted.double.json", 
             "name": "JSON String", 
             "settings": {
-                "foreground": "#cfcfc2"
+                "foreground": "#5f5f4b"
             }
         }, 
         // CoffeeScript
