@@ -24,9 +24,9 @@
                 "bracketsOptions": "underline", 
                 "tagsOptions": "stippled_underline", 
                 "selection": "#ccc9ad", 
-                "activeGuide": "#7fb11b", 
+                "activeGuide": "#06B512", 
                 "background": "#fafafa", 
-                "stackGuide": "#635f2d", 
+                "stackGuide": "#C2A51C", 
                 "selectionBorder": "#93917d", 
                 "invisibles": "#3b3a32"
             }
@@ -436,7 +436,7 @@
             "scope": "meta.structure.dictionary.json string.quoted.double.json", 
             "name": "JSON String", 
             "settings": {
-                "foreground": "#5f5f4b"
+                "foreground": "#9f9f66"
             }
         }, 
         // CoffeeScript
