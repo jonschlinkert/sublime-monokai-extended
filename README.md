@@ -38,7 +38,9 @@ git clone https://github.com/jonschlinkert/sublime-monokai-extended.git "sublime
 
 ### 2. Switch Themes
 
-Then inside Sublime Text, go to `Preferences -> Color Scheme -> User -> Monokai Extended`.
+Open a Markdown file in Sublime Text and make sure that syntax highlighting is set to Markdown Extended (not Markdown) `View -> Syntax -> Markdown Extended`.
+
+Then go to `Preferences -> Color Scheme -> Monokai Extended` and pick a theme.
 
 
 ## Monokai Enhancements
