@@ -1116,7 +1116,7 @@
             "name": "GitGutter changed", 
             "scope": "markup.changed.git_gutter", 
             "settings": {
-                "foreground": "#967EFB"
+                "foreground": "#FC951E"
             }
         },
         {
