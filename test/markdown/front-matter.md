@@ -1,10 +1,18 @@
+---
+title: This is front-matter, since it's the first thing in the document.
+---
+
+---
+title: This is not front-matter, since it's not the first thing in the document.
+---
+
 # Typography
 
 ## Headings
 
 Headings from `h1` through `h6` are constructed with a `#` for each level:
 
-```markdown
+```
 # h1 Heading
 ## h2 Heading
 ### h3 Heading
@@ -16,10 +24,15 @@ Headings from `h1` through `h6` are constructed with a `#` for each level:
 Renders to:
 
 # h1 Heading
+
 ## h2 Heading
+
 ### h3 Heading
+
 #### h4 Heading
+
 ##### h5 Heading
+
 ###### h6 Heading
 
 HTML:
@@ -37,7 +50,6 @@ HTML:
 <br>
 <br>
 
-
 ## Horizontal Rules
 
 The HTML `<hr>` element is for creating a "thematic break" between paragraph-level elements. In markdown, you can create a `<hr>` with any of the following:
@@ -48,17 +60,15 @@ The HTML `<hr>` element is for creating a "thematic break" between paragraph-lev
 
 renders to:
 
-___
-
----
+***
 
 ***
 
+***
 
 <br>
 <br>
 <br>
-
 
 ## Body Copy
 
@@ -66,31 +76,36 @@ Body copy written as normal, plain text will be wrapped with `<p></p>` tags in t
 
 So this body copy:
 
-```markdown
+```
 Lorem ipsum dolor sit amet, graecis denique ei vel, at duo primis mandamus. Et legere ocurreret pri, animal tacimates complectitur ad cum. Cu eum inermis inimicus efficiendi. Labore officiis his ex, soluta officiis concludaturque ei qui, vide sensibus vim ad.
 ```
+
 renders to this HTML:
 
 ```html
 <p>Lorem ipsum dolor sit amet, graecis denique ei vel, at duo primis mandamus. Et legere ocurreret pri, animal tacimates complectitur ad cum. Cu eum inermis inimicus efficiendi. Labore officiis his ex, soluta officiis concludaturque ei qui, vide sensibus vim ad.</p>
 ```
 
-
 <br>
 <br>
 <br>
-
 
 ## Emphasis
 
 ### Bold
+
 For emphasizing a snippet of text with a heavier font-weight.
 
-The following snippet of text is **rendered as bold text**.
+The following snippet of text is
 
-```markdown
+**rendered as bold text**
+
+.
+
+```
 **rendered as bold text**
 ```
+
 renders to:
 
 **rendered as bold text**
@@ -102,11 +117,12 @@ and this HTML
 ```
 
 ### Italics
+
 For emphasizing a snippet of text with italics.
 
 The following snippet of text is _rendered as italicized text_.
 
-```markdown
+```
 _rendered as italicized text_
 ```
 
@@ -120,23 +136,21 @@ and this HTML:
 <em>rendered as italicized text</em>
 ```
 
-
 ### strikethrough
 
 In GFM you can do strickthroughs.
 
-```markdown
+```
 ~~Strike through this text.~~
 ```
+
 Which renders to:
 
 ~~Strike through this text.~~
 
-
 <br>
 <br>
 <br>
-
 
 ## Blockquotes
 
@@ -144,7 +158,7 @@ For quoting blocks of content from another source within your document.
 
 Add `>` before any text you want to quote.
 
-```markdown
+```
 Add `>` before any text you want to quote.
 ```
 
@@ -162,7 +176,7 @@ and this HTML:
 
 Blockquotes can also be nested:
 
-```markdown
+```
 > Donec massa lacus, ultricies a ullamcorper in, fermentum sed augue.
 Nunc augue augue, aliquam non hendrerit ac, commodo vel nisi.
 >> Sed adipiscing elit vitae augue consectetur a gravida nunc vehicula. Donec auctor
@@ -175,25 +189,26 @@ Renders to:
 
 > Donec massa lacus, ultricies a ullamcorper in, fermentum sed augue.
 Nunc augue augue, aliquam non hendrerit ac, commodo vel nisi.
->> Sed adipiscing elit vitae augue consectetur a gravida nunc vehicula. Donec auctor
+
+> Sed adipiscing elit vitae augue consectetur a gravida nunc vehicula. Donec auctor
 odio non est accumsan facilisis. Aliquam id turpis in dolor tincidunt mollis ac eu diam.
->>> Donec massa lacus, ultricies a ullamcorper in, fermentum sed augue.
+
+> Donec massa lacus, ultricies a ullamcorper in, fermentum sed augue.
 Nunc augue augue, aliquam non hendrerit ac, commodo vel nisi.
 
-
 <br>
 <br>
 <br>
-
 
 ## Lists
 
 ### Unordered
+
 A list of items in which the order of the items does not explicitly matter.
 
 You may use any of the following symbols to denote bullets for each list item:
 
-```markdown
+```
 * valid bullet
 - valid bullet
 + valid bullet
@@ -201,7 +216,7 @@ You may use any of the following symbols to denote bullets for each list item:
 
 For example
 
-```markdown
+```
 + Lorem ipsum dolor sit amet
 + Consectetur adipiscing elit
 + Integer molestie lorem at massa
@@ -215,20 +230,21 @@ For example
 + Aenean sit amet erat nunc
 + Eget porttitor lorem
 ```
+
 Renders to:
 
-+ Lorem ipsum dolor sit amet
-+ Consectetur adipiscing elit
-+ Integer molestie lorem at massa
-+ Facilisis in pretium nisl aliquet
-+ Nulla volutpat aliquam velit
+* Lorem ipsum dolor sit amet
+* Consectetur adipiscing elit
+* Integer molestie lorem at massa
+* Facilisis in pretium nisl aliquet
+* Nulla volutpat aliquam velit
   - Phasellus iaculis neque
   - Purus sodales ultricies
   - Vestibulum laoreet porttitor sem
   - Ac tristique libero volutpat at
-+ Faucibus porta lacus fringilla vel
-+ Aenean sit amet erat nunc
-+ Eget porttitor lorem
+* Faucibus porta lacus fringilla vel
+* Aenean sit amet erat nunc
+* Eget porttitor lorem
 
 And this HTML
 
@@ -256,7 +272,7 @@ And this HTML
 
 A list of items in which the order of items does explicitly matter.
 
-```markdown
+```
 1. Lorem ipsum dolor sit amet
 2. Consectetur adipiscing elit
 3. Integer molestie lorem at massa
@@ -266,6 +282,7 @@ A list of items in which the order of items does explicitly matter.
 7. Aenean sit amet erat nunc
 8. Eget porttitor lorem
 ```
+
 Renders to:
 
 1. Lorem ipsum dolor sit amet
@@ -294,7 +311,7 @@ And this HTML:
 
 **TIP**: If you just use `1.` for each number, GitHub will automatically number each item. For example:
 
-```markdown
+```
 1. Lorem ipsum dolor sit amet
 1. Consectetur adipiscing elit
 1. Integer molestie lorem at massa
@@ -316,51 +333,49 @@ Renders to:
 7. Aenean sit amet erat nunc
 8. Eget porttitor lorem
 
-
 <br>
 <br>
 <br>
-
 
 ## Code
 
 ### Inline code
-Wrap inline snippets of code with `` ` ``.
+
+Wrap inline snippets of code with ```.
 
 For example, `<section></section>` should be wrapped as "inline".
 
 ```html
 For example, `<section></section>` should be wrapped as "inline".
 ```
-
 
 ### Indented code
 
 Or indent several lines of code by at least four spaces, as in:
 
-``` js
+```js
     // Some comments
     line 1 of code
     line 2 of code
     line 3 of code
 ```
 
-    // Some comments
-    line 1 of code
-    line 2 of code
-    line 3 of code
-
-
+```// Some comments
+line 1 of code
+line 2 of code
+line 3 of code
+```
 ### Block code "fences"
 
-Use "fences"  ```` ``` ```` to block in multiple lines of code.
+Use "fences"  ````` to block in multiple lines of code.
 
 <pre>
+
 ```html
 Sample text here...
 ```
-</pre>
 
+</pre>
 
 ```
 Sample text here...
@@ -376,7 +391,7 @@ HTML:
 
 ### Syntax highlighting
 
-GFM, or "GitHub Flavored Markdown" also supports syntax highlighting. To activate it, simply add the file extension of the language you want to use directly after the first code "fence", ` ``` js `, and syntax highlighting will automatically be applied in the rendered HTML. For example, to apply syntax highlighting to JavaScript code:
+GFM, or "GitHub Flavored Markdown" also supports syntax highlighting. To activate it, simply add the file extension of the language you want to use directly after the first code "fence", ```` js`, and syntax highlighting will automatically be applied in the rendered HTML. For example, to apply syntax highlighting to JavaScript code:
 
 <pre>
 
@@ -400,11 +415,12 @@ grunt.initConfig({
   }
 });
 ```
+
 </pre>
 
 Renders to:
 
-``` javascript
+```javascript
 grunt.initConfig({
   assemble: {
     options: {
@@ -449,18 +465,15 @@ And this complicated HTML:
 </pre></div>
 ```
 
-
 <br>
 <br>
 <br>
-
-
 
 ## Tables
+
 Tables are created by adding pipes as dividers between each cell, and by adding a line of dashes (also separated by bars) beneath the header. Note that the pipes do not need to be vertically aligned.
 
-
-```markdown
+```
 | Option | Description |
 | ------ | ----------- |
 | data   | path to data files to supply the data that will be passed into templates. |
@@ -470,11 +483,11 @@ Tables are created by adding pipes as dividers between each cell, and by adding 
 
 Renders to:
 
-| Option | Description |
-| ------ | ----------- |
-| data   | path to data files to supply the data that will be passed into templates. |
+| Option | Description | 
+| --- | --- |
+| data | path to data files to supply the data that will be passed into templates. |
 | engine | engine to be used for processing templates. Handlebars is the default. |
-| ext    | extension to be used for dest files. |
+| ext | extension to be used for dest files. |
 
 And this HTML:
 
@@ -503,7 +516,7 @@ And this HTML:
 
 Adding a colon on the right side of the dashes below any heading will right align text for that column.
 
-```markdown
+```
 | Option | Description |
 | ------:| -----------:|
 | data   | path to data files to supply the data that will be passed into templates. |
@@ -511,23 +524,29 @@ Adding a colon on the right side of the dashes below any heading will right alig
 | ext    | extension to be used for dest files. |
 ```
 
-| Option | Description |
-| ------:| -----------:|
-| data   | path to data files to supply the data that will be passed into templates. |
+| Option | Description | 
+| ---: | ---: |
+| data | path to data files to supply the data that will be passed into templates. |
 | engine | engine to be used for processing templates. Handlebars is the default. |
-| ext    | extension to be used for dest files. |
-
+| ext | extension to be used for dest files. |
 
 <br>
 <br>
 <br>
-
 
 ## Links
 
+### Inline link
+
+https://github.com/jonschlinkert/sublime-monokai-extended.git
+git@github.com:jonschlinkert/sublime-monokai-extended.git
+https://www.foo.com
+https://foo.com
+http://foo.com
+
 ### Basic link
 
-```markdown
+```
 [Assemble](http://assemble.io)
 ```
 
@@ -541,10 +560,9 @@ HTML:
 <a href="http://assemble.io">Assemble</a>
 ```
 
-
 ### Add a title
 
-```markdown
+```
 [Upstage](https://github.com/upstage/ "Visit Upstage!")
 ```
 
@@ -562,15 +580,16 @@ HTML:
 
 Named anchors enable you to jump to the specified anchor point on the same page. For example, each of these chapters:
 
-```markdown
+```
 # Table of Contents
   * [Chapter 1](#chapter-1)
   * [Chapter 2](#chapter-2)
   * [Chapter 3](#chapter-3)
 ```
+
 will jump to these sections:
 
-```markdown
+```
 ## Chapter 1 <a id="chapter-1"></a>
 Content for chapter one.
 
@@ -580,35 +599,52 @@ Content for chapter one.
 ## Chapter 3 <a id="chapter-3"></a>
 Content for chapter one.
 ```
+
 **NOTE** that specific placement of the anchor tag seems to be arbitrary. They are placed inline here since it seems to be unobtrusive, and it works.
 
-
 <br>
 <br>
 <br>
-
 
 ## Images
+
 Images have a similar syntax to links but include a preceding exclamation point.
 
-```markdown
+```
 ![Minion](http://octodex.github.com/images/minion.png)
 ```
+
 ![Minion](http://octodex.github.com/images/minion.png)
 
 or
-```markdown
+
+```
 ![Alt text](http://octodex.github.com/images/stormtroopocat.jpg "The Stormtroopocat")
 ```
+
 ![Alt text](http://octodex.github.com/images/stormtroopocat.jpg "The Stormtroopocat")
 
 Like links, Images also have a footnote style syntax
 
-```markdown
-![Alt text][id]
 ```
 ![Alt text][id]
+```
+
+![Alt text](http://octodex.github.com/images/dojocat.jpg "The Dojocat")
 
 With a reference later in the document defining the URL location:
 
-[id]: http://octodex.github.com/images/dojocat.jpg  "The Dojocat"
+## Footnotes
+
+You can use footnotes<sup class="footnote-ref"><a href="#fn1" id="fnref1">[1]</a></sup>.
+
+And inline footnotes[^2 "This is an inline footnote"].
+
+<hr class="footnotes-sep">
+<section class="footnotes">
+  <ol class="footnotes-list">
+    <li id="fn1"  class="footnote-item">"This is a footnote" 
+      <a href="#fnref1" class="footnote-backref">↩</a>
+    </li>
+  </ol>
+</section>
