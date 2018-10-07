@@ -293,6 +293,19 @@
     </dict>
     <dict>
       <key>name</key>
+      <string>Builtin</string>
+      <key>scope</key>
+      <string>support.class.builtin.js</string>
+      <key>settings</key>
+      <dict>
+        <key>fontStyle</key>
+        <string>italic</string>
+        <key>foreground</key>
+        <string>#66D9EF</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
       <string>String constant</string>
       <key>scope</key>
       <string>string constant</string>
@@ -595,7 +608,7 @@
     </dict>
     <dict>
       <key>name</key>
-      <string>JS: Instance constructor</string>
+      <string>JavaScript: Instance constructor</string>
       <key>scope</key>
       <string>meta.instance.constructor meta.function-call.constructor.js</string>
       <key>settings</key>
@@ -608,9 +621,9 @@
     </dict>
     <dict>
       <key>name</key>
-      <string>JS: es6 template delimiters ${}</string>
+      <string>JavaScript: es6 template delimiters ${}</string>
       <key>scope</key>
-      <string>meta.template.expression.js punctuation.definition.template-expression.begin.js, meta.template.expression.js punctuation.definition.template-expression.end.js, meta.template.expression.js punctuation.accessor</string>
+      <string>meta.template.expression.js punctuation.definition.template-expression.begin.js, meta.template.expression.js punctuation.definition.template-expression.end.js</string>
       <key>settings</key>
       <dict>
         <key>fontStyle</key>
@@ -621,7 +634,7 @@
     </dict>
     <dict>
       <key>name</key>
-      <string>JS: Function Name</string>
+      <string>JavaScript: function name</string>
       <key>scope</key>
       <string>meta.function.js, entity.name.function.js, support.function.dom.js</string>
       <key>settings</key>
@@ -634,9 +647,22 @@
     </dict>
     <dict>
       <key>name</key>
-      <string>JS: Param commas</string>
+      <string>JavaScript: function call</string>
       <key>scope</key>
-      <string>source.js meta.function.js punctuation.separator.parameter.function.js</string>
+      <string>meta.function-call.method.js variable.function.js</string>
+      <key>settings</key>
+      <dict>
+        <key>fontStyle</key>
+        <string></string>
+        <key>foreground</key>
+        <string>#fff</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>JavaScript: punctuation</string>
+      <key>scope</key>
+      <string>keyword.operator.accessor.js, meta.property.object.js, punctuation.accessor.js, punctuation.section.group.js, punctuation.separator.comma.js, punctuation.separator.key-value.js, punctuation.separator.parameter.function.js</string>
       <key>settings</key>
       <dict>
         <key>fontStyle</key>
@@ -647,33 +673,7 @@
     </dict>
     <dict>
       <key>name</key>
-      <string>JS: Object dot notation</string>
-      <key>scope</key>
-      <string>meta.property.object.js, keyword.operator.accessor.js</string>
-      <key>settings</key>
-      <dict>
-        <key>fontStyle</key>
-        <string></string>
-        <key>foreground</key>
-        <string>#ffffff</string>
-      </dict>
-    </dict>
-    <dict>
-      <key>name</key>
-      <string>JS: colons</string>
-      <key>scope</key>
-      <string>source.js meta.group.braces.curly constant.other.object.key.js punctuation.separator.key-value.js</string>
-      <key>settings</key>
-      <dict>
-        <key>fontStyle</key>
-        <string></string>
-        <key>foreground</key>
-        <string>#ffffff</string>
-      </dict>
-    </dict>
-    <dict>
-      <key>name</key>
-      <string>JS: unquoted string</string>
+      <string>JavaScript: unquoted string</string>
       <key>scope</key>
       <string>source.js meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js</string>
       <key>settings</key>
@@ -686,7 +686,7 @@
     </dict>
     <dict>
       <key>name</key>
-      <string>JS: receiver</string>
+      <string>JavaScript: receiver</string>
       <key>scope</key>
       <string>support.type.object.module.js, source.js meta.function.declaration.js support.class.js</string>
       <key>settings</key>
@@ -699,7 +699,7 @@
     </dict>
     <dict>
       <key>name</key>
-      <string>JS: receiver property</string>
+      <string>JavaScript: receiver property</string>
       <key>scope</key>
       <string>support.type.object.module.js support.type.object.module.js</string>
       <key>settings</key>
@@ -712,7 +712,7 @@
     </dict>
     <dict>
       <key>name</key>
-      <string>JS: Storage Type</string>
+      <string>JavaScript: Storage Type</string>
       <key>scope</key>
       <string>storage.type.js</string>
       <key>settings</key>
@@ -725,7 +725,7 @@
     </dict>
     <dict>
       <key>name</key>
-      <string>JS: Source</string>
+      <string>JavaScript: Source</string>
       <key>scope</key>
       <string>text.html.basic source.js.embedded.html</string>
       <key>settings</key>
@@ -738,7 +738,7 @@
     </dict>
     <dict>
       <key>name</key>
-      <string>JS: Function</string>
+      <string>JavaScript: Function</string>
       <key>scope</key>
       <string>storage.type.function.js</string>
       <key>settings</key>
@@ -751,7 +751,7 @@
     </dict>
     <dict>
       <key>name</key>
-      <string>JS: Numeric Constant</string>
+      <string>JavaScript: Numeric Constant</string>
       <key>scope</key>
       <string>constant.numeric.js</string>
       <key>settings</key>
@@ -762,7 +762,7 @@
     </dict>
     <dict>
       <key>name</key>
-      <string>JS: Literal language variable</string>
+      <string>JavaScript: Literal language variable</string>
       <key>scope</key>
       <string>variable.language.arguments.js, variable.language.super.js, variable.language.this.js, variable.language.self.js, variable.language.proto.js, variable.language.constructor.js, variable.language.prototype.js</string>
       <key>settings</key>
@@ -775,7 +775,7 @@
     </dict>
     <dict>
       <key>name</key>
-      <string>JS: []</string>
+      <string>JavaScript: []</string>
       <key>scope</key>
       <string>meta.brace.square.js</string>
       <key>settings</key>
@@ -786,7 +786,7 @@
     </dict>
     <dict>
       <key>name</key>
-      <string>JS: ()</string>
+      <string>JavaScript: ()</string>
       <key>scope</key>
       <string>meta.brace.round, punctuation.definition.parameters.begin.js, punctuation.definition.parameters.end.js, punctuation.definition.group</string>
       <key>settings</key>
@@ -797,7 +797,7 @@
     </dict>
     <dict>
       <key>name</key>
-      <string>JS: object literal {}</string>
+      <string>JavaScript: object literal {}</string>
       <key>scope</key>
       <string>meta.brace.curly.js, meta.object-literal.js</string>
       <key>settings</key>
