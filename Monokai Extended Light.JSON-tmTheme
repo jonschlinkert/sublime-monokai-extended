@@ -936,7 +936,7 @@
             "name": "Markdown: Raw Block fenced", 
             "settings": {
                 "foreground": "#49483e", 
-                "background": "#222"
+                "background": "#fafafa"
             }
         }, 
         {
